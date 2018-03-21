@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-/* Html og body site */
+/* Html og body site og 2 flexbox containere*/
 
 html,body {
 	height: 100%;
@@ -70,7 +70,7 @@ html,body {
 
 .menuitem {
 	max-width: 250px;
-	padding-top: 13px;
+	padding-top: 20px;
 	list-style-type: none;
 	font-size: large;
 	font-weight: bold;
@@ -78,14 +78,29 @@ html,body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	padding-left: 45px;
 }
 
 /* Alt Content som ikke er navbarene. Altså Ændrings boksene. */
 
 .storboks {
-	display:flex;
+	display: flex;
+	flex-direction: row;
 	order: 2;
-	flex-grow: 1;
-	justify-content: center;
-		
+	flex-grow: 2;
+	
+		}
+
+.a-boks {
+	order: 1;
+	height: 100px;
+	width: 100px;
+	background-color: #EB1014;
+}
+
+.b-boks {
+	order: 2;
+	width: 100px;
+	height: 100px;
+	background-color: #154FD5;
 }
