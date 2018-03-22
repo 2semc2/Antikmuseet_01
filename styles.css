@@ -23,19 +23,19 @@ html,body {
 /* Horizontal bar med sitemap og logo */
 
 .Homenu {
-	width: 100%;
-	background-color: #0F21B0;
-	display: inline-block;
-	float: left;
-	height: 130px;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	border-bottom: 1px solid #3D6CAB;
+    width: 100%;
+    background-color: #003B87;
+    display: inline-block;
+    float: left;
+    height: 130px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 #logo {
-	padding-top: 25px;	
+    padding-top: 25px;
+    padding-left: 10px;
 }
 
 .hvorerjegboks {
@@ -47,10 +47,13 @@ html,body {
 }
 
 .listestiliboks {
-	list-style-type: none;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: xx-large;
+    list-style-type: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    left: 89px;
+    top: 25px;
 	
 }
 
@@ -58,14 +61,13 @@ html,body {
 /* Vertikal Menu indbefatter menu og menuitem */
 
 .menu {
-	display: flex;
-	align-self: stretch;
-	margin: 0px;
-	height: 900px;
-	background-color: #0F21B0;
-	order: 1;
-	width: 300px;
-	
+    display: flex;
+    align-self: stretch;
+    margin: 0px;
+    height: 600px;
+    background-color: #003B87;
+    order: 1;
+    width: 300px;	
 }
 
 .menuitem {
@@ -100,18 +102,18 @@ html,body {
 		}
 
 .a-boks {
-	order: 1;
-	height: 450px;
-	width: 450px;
-	background-color: #EB1014;
+    order: 1;
+    height: 300px;
+    width: 450px;
+    background-color: #EEEAF7;
 	
 }
 
 .b-boks {
-	order: 2;
-	width: 450px;
-	height: 450px;
-	background-color: #154FD5;
+    order: 2;
+    width: 450px;
+    height: 300px;
+    background-color: #EEEAF7;
 	
 }
 
@@ -122,28 +124,65 @@ html,body {
 }
 
 .c-boks {
-	order: 2;
-	height: 450px;
-	width: 450px;
-	background-color: #A35B5C;
+    order: 2;
+    height: 300px;
+    width: 450px;
+    background-color: #EEEAF7;
 	
 }
 
 .d-boks {
-	order: 2;
-	height: 450px;
-	width: 450px;
-	background-color: #1D1486;
+    order: 2;
+    height: 300px;
+    width: 450px;
+    background-color: #EEEAF7;
 	
 }
 
 
 /*Tekstboks*/
 
-.ledetradfelt {
-	margin-left: 12px;
-	margin-right: 8px;
+#ledetrad {
+    margin-left: 15px;
+    width: 406px;
+    height: 100px;
+    resize: none;
+    border-top-right-radius: 0px;
 }
-.ledetradfelt2 {
-	width: 400px;
-	height: 294px;}
+
+.svar {
+    margin-left: 15px;
+    width: 200px;
+    height: 45px;
+	resize: none;
+}
+
+
+
+/* Submit knappen og dertilhørende tekst ihvert felt */
+
+.submit {
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    background-color: #36DC2F;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+.tekstled {
+    margin-left: 15px;	
+}
+
+/*Tekststyling*/
+h1 {
+    text-align: center;
+    font-family: abril-fatface;
+    font-style: normal;
+    font-weight: 400;	
+}
+p1 {
+    font-family: andada;
+    font-style: normal;
+    font-weight: 400;	
+}
