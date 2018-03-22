@@ -5,8 +5,8 @@
 
 html,body {
 	height: 100%;
-	width: 100%;
-	margin: 0px;
+	width: 1160px;
+	margin: 0 auto;
 	display: inline-block;
 	}
 
@@ -61,7 +61,7 @@ html,body {
 	display: flex;
 	align-self: stretch;
 	margin: 0px;
-	height: 800px;
+	height: 900px;
 	background-color: #0F21B0;
 	order: 1;
 	width: 300px;
@@ -101,16 +101,16 @@ html,body {
 
 .a-boks {
 	order: 1;
-	height: 300px;
-	width: 300px;
+	height: 450px;
+	width: 450px;
 	background-color: #EB1014;
 	
 }
 
 .b-boks {
 	order: 2;
-	width: 300px;
-	height: 300px;
+	width: 450px;
+	height: 450px;
 	background-color: #154FD5;
 	
 }
@@ -123,16 +123,27 @@ html,body {
 
 .c-boks {
 	order: 2;
-	height: 300px;
-	width: 300px;
+	height: 450px;
+	width: 450px;
 	background-color: #A35B5C;
 	
 }
 
 .d-boks {
 	order: 2;
-	height: 300px;
-	width: 300px;
+	height: 450px;
+	width: 450px;
 	background-color: #1D1486;
 	
 }
+
+
+/*Tekstboks*/
+
+.ledetradfelt {
+	margin-left: 12px;
+	margin-right: 8px;
+}
+.ledetradfelt2 {
+	width: 400px;
+	height: 294px;}
